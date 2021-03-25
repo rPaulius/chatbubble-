@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.bubble {
+    position: relative;
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 50px;
+    
+}
+
+.bubble-cicinas {
+    position: relative;
+    background-color: green;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.chat {
+     display: flex;
+     align-items: center;
+     margin: 20px;
+     transition: 0.4s ease-in-out;
+}
+
+
+.chat:hover {
+    transform: translateX(100px);
+}
+
+.chat-cicinas {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.chat-cicinas:hover {
+    transform: translateX(100px);
+}
+
+
+.picture {
+    flex-shrink: -0;
+    position: relative;
+    margin-right: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+    
+
+}
